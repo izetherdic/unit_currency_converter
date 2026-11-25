@@ -1,5 +1,5 @@
-from api import get_rate, convert_currency
-from units import convert_length, convert_weight
+from converter.api import get_rate, convert_currency
+from converter.units import convert_length, convert_weight
 
 
 def convert_measurement(unit):
